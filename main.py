@@ -1,5 +1,5 @@
 import Constants as keys
-from telegram.ext import *
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import Responses as R
 
 print("Bot started...")
